@@ -3,6 +3,20 @@
 Creación de una aplicación con microservicios que resuleva el problema de una aplicación de repartición de comida que maneje clientes, restaurantes y repartidores. 
 En este caso se crea 3 mini servicios con comunicación entre ellos.
 
+Las funcionalidades serán las siguientes:
+* **Cliente**
+    * Solicitar pedido al restaurante
+    * Verificar estado del pedido al restaurante
+    * Verificar estado del pedido al repartidor
+* **Restaurante**
+    * Recibir pedido del cliente
+    * Informar estado del pedido al cliente
+    * Avisar al repartidor que ya está listo el pedido
+* **Repartidor**
+    * Recibir pedido del restaurante
+    * Informar estado del pedido al cliente
+    * Marcar como entregado
+
 ## Getting Started
 
 Para correr la practica será necesario acceder a su carpeta y correr el siguiente comando en la terminal.
