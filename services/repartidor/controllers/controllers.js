@@ -6,26 +6,29 @@ const controller = {}
 controller.index = function (req, res) {
   var message = ''
   //res.render('home', { message: message })
-  res.send('cliente home')
+  res.send('repartidor home')
   console.log("Index")
 }
 
 controller.pedido = function (req, res) {
-  var message = ''
-  //res.render('home', { message: message })
-  console.log("Index")
+  var bdytxt = '{ "id_rep":4444, "id_ped":3333, "id_res":2222}'
+  var body = JSON.parse(bdytxt)
+  res.json(body)
+  console.log("made pedido")
 }
 
-controller.estado_res = function (req, res) {
-  var message = ''
-  //res.render('home', { message: message })
-  console.log("Index")
+controller.estado_ped = function (req, res) {
+  var bdytxt = '{ "id_rep":4444, "id_cli":1111, "id_ped":3333}'
+  var body = JSON.parse(bdytxt)
+  res.json(body)
+  console.log("Cambiando el estatus del pedido a entregado")
 }
 
-controller.estado_rep = function (req, res) {
-  var message = ''
-  //res.render('home', { message: message })
-  console.log("Index")
+controller.set_entregado = function (req, res) {
+  var bdytxt = '{ "id_rep":4444, id_ped":3333}'
+  var body = JSON.parse(bdytxt)
+  res.json(body)
+  console.log("made pedido")
 }
 
 
