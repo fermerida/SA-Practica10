@@ -1,5 +1,4 @@
 const express = require('express')
-const path = require('path')
 var bodyParser = require('body-parser')
 
 const app = express()
@@ -8,7 +7,7 @@ const app = express()
 const rutas = require('./routes/routes')
 
 // settings
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 3002)
 
 // midleware
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -19,7 +18,7 @@ app.use('/', rutas)
 
 // inicio de servidor
 app.listen(app.get('port'), () => {
-  console.log('Server on port 3000')
+  console.log('Server on port 3002')
 })
 
 module.exports = app

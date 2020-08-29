@@ -7,7 +7,7 @@ const app = express()
 const rutas = require('./routes/routes')
 
 // settings
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 3001)
 
 // midleware
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -18,7 +18,7 @@ app.use('/', rutas)
 
 // inicio de servidor
 app.listen(app.get('port'), () => {
-  console.log('Server on port 3000')
+  console.log('Server on port 3001')
 })
 
 module.exports = app
