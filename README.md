@@ -17,6 +17,13 @@ Las funcionalidades serán las siguientes:
     * Informar estado del pedido al cliente
     * Marcar como entregado
 
+## Link del video demostrando 
+
+En el siguiente link se encuentra una pequeña demostración
+[Video](https://youtu.be/nnvDeYU_gec)
+
+
+
 ## Getting Started
 
 Para correr la practica será necesario acceder a su carpeta y correr el siguiente comando en la terminal.

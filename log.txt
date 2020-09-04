@@ -1,1 +1,11 @@
 Log File
+Cliente 1111: Realizo un pedido
+Restaurante: Recibi un pedido del cliente 1111
+Restaurante: Se empieza a preparar el pedido: Pizza
+Cliente 1111: Realice una consulta al restaurante
+Restaurante: Su pedido 3333 esta siendo preparado
+Cliente: Su pedido esta siendo preparado
+Cliente 1111: Realicé una consulta al repartidor
+Cliente: Su pedido se encuentra en camino
+Repartidor 4444: Verificando estado del pedido 3333
+Repartidir 4444: Su pedido se encuentra en camino
