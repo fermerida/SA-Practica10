@@ -6,18 +6,13 @@ const controllers = require('../controllers/controllers')
 // declaración de rutas para las acciones en el controlador
 router.get('/', controllers.index)
 
-router.get('/cliente/pedido', controllers.index)
-router.get('/cliente/verify_res', controllers.index)
-router.get('/cliente/verify_rep', controllers.index)
+router.get('/cliente/pedido', controllers.make_pedido)
+router.get('/cliente/verify_res', controllers.verify_res)
+router.get('/cliente/verify_rep', controllers.verify_rep)
 
-router.get('/restaurante/pedido', controllers.index)
-router.get('/restaurante/status_pedido', controllers.index)
-router.get('/restaurante/status_ready', controllers.index)
+router.get('/restaurante/status_ready', controllers.set_ready)
 
-router.get('/repartidor/pedido', controllers.index)
-router.get('/repartidor/status_pedido', controllers.index)
-router.get('/repartidor/status_delivered', controllers.index)
-
+router.get('/repartidor/status_delivered', controllers.set_delivered)
 
 // exportar modulo
 module.exports = router
