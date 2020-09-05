@@ -10,3 +10,5 @@ Cliente 1111: Realicé una consulta al repartidor
 Cliente: Su pedido se encuentra en camino
 Repartidor 4444: Verificando estado del pedido 3333
 Repartidir 4444: Su pedido se encuentra en camino
+Repartidor 4444: Pedido entregado número 3333
+Repartidor: Cambiando status a entregado
