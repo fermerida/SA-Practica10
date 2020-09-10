@@ -37,8 +37,7 @@ controller.estado_ped = function (req, res) {
 }
 
 controller.set_entregado = function (req, res) {
-  var writing = 'Repartidor 4444: Pedido entregado número '
-  writing += req.body.id_ped + '\n'
+  var writing = 'Repartidor 4444: Pedido entregado número 3333\n'
   fs.appendFile('../log.txt', writing, (err) => {
     // throws an error, you could also catch it here
     if (err) throw err

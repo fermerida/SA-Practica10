@@ -35,15 +35,16 @@ controller.estado_ped = function (req, res) {
 }
 
 controller.notify_rep = function (req, res) {
+  var bdytxt = '{ "id_ped":3333, "id_rep":4444,"pedido":"pizza","id_res":2222, "Estado":"Listo para recoger"}'
+  var bodyJ = JSON.parse(bdytxt)
   var writing = 'Restaurante: Repartidor ' + req.body.id_rep + ' El pedido esta listo\n'
-
   fs.appendFile('../log.txt', writing, (err) => {
     // throws an error, you could also catch it here
     if (err) throw err
     // success case, the file was saved
     console.log('Recibio pedido')
   })
-  res.send('Listo')
+  res.json(bodyJ)
 }
 
 module.exports = controller

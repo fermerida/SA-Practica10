@@ -1,0 +1,26 @@
+{
+  "name": "sa-practica3",
+  "version": "1.0.0",
+  "description": "Creación de una aplicación con microservicios que resuleva el problema de una aplicación de repartición de comida que maneje clientes, restaurantes y repartidores. \r En este caso se crea 3 mini servicios con comunicación entre ellos.",
+  "main": "ESB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fermerida/SA-Practica3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fermerida/SA-Practica3/issues"
+  },
+  "homepage": "https://github.com/fermerida/SA-Practica3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}

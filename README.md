@@ -1,9 +1,16 @@
-# Practica 3 SA
+# Practica 4 SA
 
 Creación de una aplicación con microservicios que resuleva el problema de una aplicación de repartición de comida que maneje clientes, restaurantes y repartidores. 
-En este caso se crea 3 mini servicios con comunicación entre ellos.
+En este caso se crea 3 mini servicios con comunicación entre ellos. 
+
+Se espera utilizar la coordinación de servicios para la practica 3. En este metodo cada uno de los servicios llaman al servicio que necesiten.
+
+Se espera utilizar la coreografía de servicios para la practica 4. En este metodo se esta utilizando un ESB que coordinará los accesos a todos los servicios.
 
 Las funcionalidades serán las siguientes:
+* **ESB**
+    * Coordinación de servicios
+    * Manejo de rutas
 * **Cliente**
     * Solicitar pedido al restaurante
     * Verificar estado del pedido al restaurante
@@ -22,6 +29,10 @@ Las funcionalidades serán las siguientes:
 En el siguiente link se encuentra una pequeña demostración
 [Video](https://youtu.be/nnvDeYU_gec)
 
+## Demostración
+
+A continuación se muestra un pequeño video que tiene la demostración de la practica 4
+[Video](https://youtu.be/IhvOnv_bFNw)
 
 
 ## Getting Started
