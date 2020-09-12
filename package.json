@@ -24,6 +24,9 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-build": "^0.5.3",
+    "gulp-nodemon": "^2.5.0",
+    "nodemon": "^2.0.4"
   }
 }
