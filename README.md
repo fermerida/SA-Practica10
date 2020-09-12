@@ -1,11 +1,16 @@
-# Practica 4 SA
+# Practica 5 SA
 
-Creación de una aplicación con microservicios que resuleva el problema de una aplicación de repartición de comida que maneje clientes, restaurantes y repartidores. 
-En este caso se crea 3 mini servicios con comunicación entre ellos. 
+En esta practica se utilizará DevOps y se agrega un estandard de versiones para los releases. 
 
-Se espera utilizar la coordinación de servicios para la practica 3. En este metodo cada uno de los servicios llaman al servicio que necesiten.
+Se estará utilizando SEMVER y se utilizara una herramienta de construcción de artefactos. Esta forma nos indica lo siguiente:
 
-Se espera utilizar la coreografía de servicios para la practica 4. En este metodo se esta utilizando un ESB que coordinará los accesos a todos los servicios.
+* Versión mayor con cambios que rompe la compatibilidad 
+* Menor versión con caracteristicas nuevas agregadas 
+* Versión de patch que arregla bugs en la versións 
+
+Se espera utilizar una aplicación creada en la practica 4. Esta es una aplicación con microservicios que resuleva el problema de una aplicación de repartición de comida que maneje clientes, restaurantes y repartidores. En este caso se crea 3 mini servicios con comunicación entre ellos. 
+
+Se espera utilizar la coordinación de servicios para la practica 3. En este metodo cada uno de los servicios llaman al servicio que necesiten. Se espera utilizar la coreografía de servicios para la practica 4. En este metodo se esta utilizando un ESB que coordinará los accesos a todos los servicios.
 
 Las funcionalidades serán las siguientes:
 * **ESB**
@@ -23,6 +28,10 @@ Las funcionalidades serán las siguientes:
     * Recibir pedido del restaurante
     * Informar estado del pedido al cliente
     * Marcar como entregado
+
+## Versión
+
+Esta es la versión 0.3.0 del proyecto.
 
 ## Demostración
 
