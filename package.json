@@ -4,7 +4,8 @@
   "description": "Creación de una aplicación con microservicios que resuleva el problema de una aplicación de repartición de comida que maneje clientes, restaurantes y repartidores. \r En este caso se crea 3 mini servicios con comunicación entre ellos.",
   "main": "ESB.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R min --exit",
+    "sonar": "node sonar-project.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,14 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "gulp": "^4.0.2",
     "gulp-build": "^0.5.3",
     "gulp-nodemon": "^2.5.0",
-    "nodemon": "^2.0.4"
+    "mocha": "^8.1.3",
+    "nodemon": "^2.0.4",
+    "sonarqube-scanner": "^2.7.0",
+    "supertest": "^4.0.2",
+    "typescript": "^4.0.3"
   }
 }
