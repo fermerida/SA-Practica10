@@ -1,6 +1,8 @@
-# Practica 5 SA
+# Practica 6 SA
 
-En esta practica se utilizará DevOps y se agrega un estandard de versiones para los releases. 
+En esta practica se utilizará DevOps y se agrega un estandard de versiones para los releases. En la practica 5 se creo la rama develop, en esta ocasión se creará la rama feature.
+
+Además de esto se agrego un analisis con sonarcube de pruebas unitarias. 
 
 Se estará utilizando SEMVER y se utilizara una herramienta de construcción de artefactos. Esta forma nos indica lo siguiente:
 
@@ -29,14 +31,15 @@ Las funcionalidades serán las siguientes:
     * Informar estado del pedido al cliente
     * Marcar como entregado
 
-## Link del video demostrando 
-
-En el siguiente link se encuentra una pequeña demostración
-[Video](https://youtu.be/nnvDeYU_gec)
-
 ## Demostración
 
-A continuación se muestra un pequeño video que tiene la demostración de la practica 4
+Video de la demostración de la practica 6:
+[Video](https://youtu.be/0BUWUHwjf5k)
+
+Video de la demostración de la practica 5:
+[Video](https://youtu.be/nnvDeYU_gec)
+
+Video de la demostración de la practica 4:
 [Video](https://youtu.be/IhvOnv_bFNw)
 
 
