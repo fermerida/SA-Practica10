@@ -1,6 +1,8 @@
-# Practica 6 SA
+# Practica 7 SA
 
-En esta practica se utilizará DevOps y se agrega un estandard de versiones para los releases. En la practica 5 se creo la rama develop, en esta ocasión se creará la rama feature.
+En esta practica se utilizará una integración de Jenkins con el repositorio Github y las pruebas en SonarQube. En esta integración se generará una construcción de artefactos del proyecto y un analisis con SonarQube.
+
+En la practica anterior se utilizo DevOps y se agrega un estandard de versiones para los releases. En la practica 5 se creo la rama develop, en esta ocasión se creará la rama feature.
 
 Además de esto se agrego un analisis con sonarcube de pruebas unitarias. 
 
