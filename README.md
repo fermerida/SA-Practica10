@@ -1,6 +1,8 @@
-# Practica 7 SA
+# Practica 10 SA
 
-En esta practica se utilizará una integración de Jenkins con el repositorio Github y las pruebas en SonarQube. En esta integración se generará una construcción de artefactos del proyecto y un analisis con SonarQube.
+En esta practica se utilizarán practicas derivadas de DevOps. En este caso se requiere desplegar el ambiente completo sobre docker utilizando un dockerfile.
+
+En la anterior practica se utilizó una integración de Jenkins con el repositorio Github y las pruebas en SonarQube. En esta integración se generará una construcción de artefactos del proyecto y un analisis con SonarQube.
 
 En la practica anterior se utilizo DevOps y se agrega un estandard de versiones para los releases. En la practica 5 se creo la rama develop, en esta ocasión se creará la rama feature.
 
@@ -34,6 +36,11 @@ Las funcionalidades serán las siguientes:
     * Marcar como entregado
 
 ## Demostración
+Video de la demostración de la practica 10:
+[Video](https://youtu.be/0BUWUHwjf5k)
+
+Video de la demostración de la practica 7:
+[Video](https://youtu.be/0BUWUHwjf5k)
 
 Video de la demostración de la practica 6:
 [Video](https://youtu.be/0BUWUHwjf5k)
